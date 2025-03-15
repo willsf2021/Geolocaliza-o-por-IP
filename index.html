@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>Ip Address Tracker</title>
+</head>
+
+<body>
+
+    <main>
+        <div id="topSection">
+            <h1>
+                IP Address Tracker
+            </h1>
+            <div id="customInput">
+                <input type="text" id="ip">
+                <button id="button"><img src="./assets/images/icon-arrow.svg" alt=""></button>
+            </div>
+            <div id="addressData">
+                <div>
+                    <p class="title">IP ADDRESS</p>
+                    <span class="dataGiven ipAddress"></span>
+                </div>
+                <div class="hr"></div>
+                <div>
+                    <p class="title">LOCATION</p>
+                    <span class="dataGiven location"></span>
+                </div>
+                <div class="hr"></div>
+                <div>
+                    <p class="title">TIMEZONE</p>
+                    <span class="dataGiven timezone"></span>
+                </div>
+                <div class="hr"></div>
+                <div>
+                    <p class="title">ISP</p>
+                    <span class="dataGiven isp"></span>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+        </div>
+    </main>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
