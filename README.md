@@ -2,6 +2,8 @@
 
 Este projeto é um **webapp de geolocalização** desenvolvido como parte de um desafio do **Frontend Mentor**. O objetivo do desafio é criar uma interface simples que mostre a localização do usuário com base no IP, utilizando APIs externas para obter dados de geolocalização e exibi-los de forma clara e interativa.
 
+## ***** SITE RESPONSIVO
+
 ## Tecnologias Utilizadas
 
 - **Leaflet.js**: Para renderização e visualização do mapa.
